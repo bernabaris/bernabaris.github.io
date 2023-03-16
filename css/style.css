@@ -1,23 +1,39 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.all {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.leftside {
+	position: initial;
+	background-color: rgb(126, 219, 231);
+	padding: 20px;
 
-  
-  h1 {
-    color: white;
-    text-align: center;
-  }
+}
+.right {
+	position: initial;
+	background-color: rgb(162, 202, 206);
+	padding: 20px;
 
-strong {
-  color: white;
 }
-.center {
-  margin-left: auto;
-  margin-right: auto;
+.image, .aboutme, .personal, .hobbies {
+	margin-bottom: 30px;
 }
-table,
-tr,
-td {
-  border: 1px solid;
-  overflow-wrap: break-word;
-  color: blueviolet;
+.h2 {
+	background-color: rgb(150, 4, 89);
 }
-  
-  
