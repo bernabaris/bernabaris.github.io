@@ -1,39 +1,156 @@
-/* Write CSS Here */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body {
-	background-color: rgb(253, 254, 255);
-	display: flex;
-	justify-content: center;
-	align-items: center;
+a {
+  text-decoration: none;
+  color: #fff;
 }
-.all {
-	width: 50%;
-	max-width: 1000px;
-	min-height: 100px;
-	background-color: rgb(245, 239, 231);
-	margin: 0px;
-	display: grid;
-	grid-template-columns: 2fr 4fr;
+html{
+  font-family: "Open Sans", sans-serif;
 }
-.leftside {
-	position: initial;
-	background-color: rgb(126, 219, 231);
-	padding: 20px;
+#navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+}
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+#navbar ul li a {
+  padding: 00.75rem;
+}
+#navbar ul li a:hover {
+  background: #336ea2;
+  border-radius: 4px;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border: bottom 1px solid grey ;
+}
+#home img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+#home .name h2 {
+  margin-bottom: 0.75rem;
+}
+#home .name p {
+  opacity: 0.6;
+  font-style: italic;
+}
 
+#home a {
+  margin-top: 1.25rem;
+  background: #336ea2;
+  padding: 0.8rem 3rem;
+  border-radius: 7px;
+  letter-spacing: 0.5px;
 }
-.right {
-	position: initial;
-	background-color: rgb(162, 202, 206);
-	padding: 20px;
+#home a:hover {
+  background: white;
+  color: #336ea2;
+  border: 0.5px solid #336ea2;
+}
 
+#contact {
+  color: white;
+  padding: 1rem;
 }
-.image, .aboutme, .personal, .hobbies {
-	margin-bottom: 30px;
+
+#contact .contact-form {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
 }
-.h2 {
-	background-color: rgb(150, 4, 89);
+#contact .contact-form ul  {
+  list-style-type: none;
+  display: flex;
+  margin-top: 1rem;
+  align-self: center;
+}
+#contact .contact-form ul li a {
+  padding: 1rem;
+  font-size: 2rem;
+}
+#contact .contact-form ul li a:hover {
+  opacity: 0.8;
+}
+.text-center {
+  text-align: center;
+}
+.heading-small {
+  font-size: 1.25rem;
+}
+.heading-medium {
+  font-size: 1.5rem;
+}
+heading-big {
+  font-size: 1.75rem;
+}
+.bg-dark-blue {
+  background: #062e51;
+}
+.bg-light-blue {
+  background: #336ea2;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.btn {
+   margin-top: 1.25rem;
+   padding: 0.8rem 3rem;
+   border-radius: 7px;
+   letter-spacing: 0.5px;
+}
+.btn-primary {
+  background: #336ea2;
+}
+.btn-primary:hover {
+  background: white;
+  color: #336ea2;
+  border: 0.5px solid #336ea2;
+}
+.btn-dark {
+ background: #333;
+}
+.btn-dark:hover {
+  color: #333;
+  background: white;
+  border: 0.5px solid #333;
+}
+.btn-block {
+  width: 100%;
+  text-align: center;
+}
+.form-group {
+  padding: 0.25rem;
+}
+.form-group label {
+  display: block;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.form-control {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1rem;
+  resize: none;
+  border-radius: 5px;
 }
