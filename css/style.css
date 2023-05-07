@@ -71,6 +71,23 @@ img {
   height: auto;
   display: block;
 }
+.btn {
+  padding: .7rem 3rem;
+  color: black;
+  cursor: pointer;
+  margin-top: 5rem;
+  font-size: 2rem;
+  width: 15rem;
+  height: 6rem;
+  border-radius: 2rem;
+  background-color: var(--first-color);
+}
+
+.btn i {
+  padding: 0 .5rem;
+  font-size: 1rem;
+
+}
 
 /*===== CLASS CSS ===== */
 .section-title {
