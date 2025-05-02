@@ -1,335 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Habibe Berna Barış - Software Engineer</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="profile-header">
+    <div class="profile-text">
+        <h1>Habibe Berna Barış</h1>
+        <p>Software Engineer</p>
+        <p>📧 <a href="mailto:bernabaris1@gmail.com">bernabaris1@gmail.com</a></p>
+        <p>📞 <a href="tel:+905075504974">+90 507 550 49 74</a></p>
+        <p>📍 Istanbul, Turkey</p>
+        <p>🔗 <a href="#">LinkedIn</a> | 🐱 <a href="#">GitHub</a></p>
+    </div>
+    <div class="profile-photo">
+        <img src="images/berna.jpeg" alt="Profile Photo" />
+    </div>
+</header>
 
-        <title>Habibe Berna Barış</title>
-    </head>
-    <body>
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Berna</a>
-                </div>
+<main>
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>
+            I enjoy creating efficient and scalable solutions while continuously improving my skills.
+            I have experience in backend development and DevOps, working with Java, Python and CI/CD pipelines.
+            I enjoy keeping up with emerging technologies and exploring new innovations.
+        </p>
+    </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#experiences" class="nav__link">Experiences</a></li>
-                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                        
-                    </ul>
-                </div>
+    <section id="experience">
+        <h2>Experience</h2>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+        <h3>Software Engineer – Argela Technologies</h3>
+        <p><em>May 2024 – September 2024 | Istanbul</em></p>
+        <ul>
+            <li>Resolved UI issues involving HTML and JavaScript bugs to enhance frontend stability and UX.</li>
+            <li>Optimized logging mechanisms for better system observability and performance.</li>
+            <li>Developed an OBPS simulator for integration testing of Java-based projects.</li>
+        </ul>
 
-        <main class="l-main">
+        <h3>Backend Developer Intern – Testinium</h3>
+        <p><em>July 2023 – August 2023 | Istanbul</em></p>
+        <ul>
+            <li>Designed and tested scalable Java-based backend systems.</li>
+            <li>Utilized Selenium for UI testing and Feign Client for microservice communication.</li>
+            <li>Integrated Elasticsearch into backend services.</li>
+        </ul>
 
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Habibe Berna Barış</h1>
-                    <p class="home__subtitle">Software Engineer</p>
+        <h3>DevOps Engineering Intern – Argela Technologies</h3>
+        <p><em>October 2022 – January 2023 | Istanbul</em></p>
+        <ul>
+            <li>Built CI/CD pipelines using Docker and Kubernetes.</li>
+            <li>Automated VM operations in vCenter via REST APIs.</li>
+            <li>Wrote Linux scripts to streamline workflows.</li>
+        </ul>
 
-                </div>
+        <h3>Software Engineering Intern – NETAŞ</h3>
+        <p><em>July 2022 – August 2022 | Istanbul</em></p>
+        <ul>
+            <li>Performed data packet analysis using Wireshark and C#.</li>
+            <li>Managed WPF application workflows in ATS project.</li>
+        </ul>
+    </section>
 
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/habibebernabaris/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/bernabaris" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="pdf/HabibeBernaBaris_Resume.pdf " download> <button class="btn">Download CV<i
-                        class="uil uil-download-alt"></i></button></a>
+    <section id="projects">
+        <h2>Projects</h2>
 
-                </div>
+        <h3><a href="https://github.com/bernabaris/nodejs-express-mysql" target="_blank">CI/CD Pipeline Development on Kubernetes</a></h3>
+        <p>CI/CD pipeline for a Node.js Express app using Docker, Kubernetes (GKE), Helm, GitLab CI/CD, and ArgoCD.</p>
 
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="35" y="45" href="images/me.JPG"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
+        <h3><a href="https://github.com/bernabaris/producer-consumer" target="_blank">CDC Application (Apache Kafka)</a></h3>
+        <p>Spring Boot application for real-time data sync between MongoDB and external systems via Kafka.</p>
 
-            <section class="about section " id="about">
-                <h2 class="section-title">About Me</h2>
+        <h3><a href="https://github.com/bernabaris/e-orderhub" target="_blank">Order Management Microservice System</a></h3>
+        <p>Java Spring Boot microservice app for managing orders and inventory using Apache Kafka.</p>
+    </section>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="images/me.JPG" alt="">
-                    </div>
-                    
-                    <div>
-                        <p class="about__text">I enjoy creating efficient and scalable solutions while continuously improving my skills.
-                            I have experience in backend development
-                            and DevOps, working with Java, Python and
-                            CI/CD pipelines. I enjoy keeping up with
-                            emerging technologies and exploring new
-                            innovations. </p>
-                            <h3 class="section-subtitle">Personal</h3>
-                            <p class="about__text">nationality: Turkish</p>
-                            <p class="about__text">birthday: 8 March 2001</p>
-                            <p class="about__text">driving license: Class B</p>
-                            <h3 class="section-subtitle">Hobbies</h3>
-                            <p class="about__text">Journaling</p>
-                            <p class="about__text">Music</p>
-                            <p class="about__text">Board Gaming</p>    
-                    </div>                                 
-                </div>
-            </section>
-            <section class="experiences section " id="experiences">
-                <h2 class="section-title">Experiences</h2>
-                <div class="experiences__container bd-grid">
-                    <div class="experience_sections">
-                        <div class="experience_data">
-                            <div>
-                                <h3 class="experience_title">Software Engineering Intern</h3>
-                                <span class="experience_subtitle"><img class="img_experiences" src="images/netas.jpg"> NETAŞ</span>
-                                <div class="experience_calendar">
-                                    <i class="uil uil-calendar-alt">
-                                        2022 (1 Mo.)
-                                    </i>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="experience_rounder"></span>
-                                <span class="experience_line"></span>
-                            </div>
-                        </div>
-                        <div class="experience_data">
-                            <div>
-                                <h3 class="experience_title">DevOps Engineering Intern</h3>
-                                <span class="experience_subtitle"><img class="img_experiences" src="images/argela.jpg"> ARGELA TECHNOLOGIES</span>
-                                <div class="experience_calendar">
-                                    <i class="uil uil-calendar-alt">
-                                        2022-2023 (4 Mo.)
-                                    </i>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="experience_rounder"></span>
-                                <span class="experience_line"></span>
-                            </div>
-                        </div>
-                    </div>                
-                </div>
-            </section>
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Marmara University</strong> – B.Sc. in Computer Engineering (Sept 2021 – Sept 2023) – GPA: 3.02/4</p>
+        <p><strong>Selçuk University</strong> – B.Sc. in Computer Engineering (Sept 2019 – Sept 2021) – GPA: 3.49/4</p>
+    </section>
 
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java, Spring Boot</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Docker</li>
+        </ul>
+    </section>
 
-            <section class="project section " id="projects">
-                <h2 class="section-title">Projects</h2>
-                <div class="projects_contianer bd-grid">
-                    <div class="projects_sections">
-                        <div class="project_data">
-                            <div>
-                                <h3 class="project_title">Souvenir App</h3>
-                                <span class="project_subtitle">It is an ecommerce application that allows people to easily shop for all kinds of needs (food,
-                                    cleaning, technology, hobby, clothing, etc.) over the internet from a store called Souvenir.</span>
-                                <div class="project_atom">
-                                    <i class="uil uil-atom">
-                                        Flutter, Dart & Android Studio
-                                    </i>
-                                </div>
-                            </div>
-                            <div>
-                                <h3 class="project_title">Sentiment Analysis</h3>
-                                <span class="project_subtitle">A positive, negative and neutral sentiment analysis project using deep learning algorithms of user
-                                    comments collected from ecommerce sites.
-                                    </span>
-                                <div class="project_atom">
-                                    <i class="uil uil-atom">
-                                        Python & Jupyter Notebook
-                                    </i>
-                                </div>
-                            </div>
-                            <div>
-                                <h3 class="project_title">Image Colorization</h3>
-                                <span class="project_subtitle">Coloring the pictures and videos in the dataset using deep learning algorithms.
-                                </span>
-                                <div class="project_atom">
-                                    <i class="uil uil-atom">
-                                        Python & Jupyter Notebook
-                                    </i>
-                                </div>
-                            </div>
-                            <div>
-                                <h3 class="project_title">ChatApp</h3>
-                                <span class="project_subtitle">It is a simple python socket-based chat application where communication established between a single server and client.
-                                </span>
-                                <div class="project_atom">
-                                    <i class="uil uil-atom">
-                                        Python & PyCharm
-                                    </i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>                
-                </div>
-            </section>
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <p>
+            A Beginner’s Guide to Open Source Software Development (LFD102)<br />
+            Credential ID: LF-8xb36e3c0v, The Linux Foundation
+        </p>
+    </section>
 
-            <section class="education section " id="education">
-                <h2 class="section-title">Education</h2>
-                <div class="education__container bd-grid">
-                    <div class="education_sections">
-                        <div class="education_data">
-                            <div>
-                                <h3 class="education_title">Math-Science</h3>
-                            <span class="education_subtitle">Kutahya Necip Fazil Kisakurek Anatolia High School</span>
-                            <div class="education_calendar">
-                                <i class="uil uil-calendar-alt">
-                                    2015 - 2019
-                                </i>
-                            </div>
-                        </div>
-                        <div>
-                            <span class="education_rounder"></span>
-                            <span class="education_line"></span>
-                        </div>
-                    </div>
-                    <div class="education_data">
-                        <div>
-                            <h3 class="education_title">Computer Engineering</h3>
-                            <span class="education_subtitle">Selcuk University</span>
-                            <div class="education_calendar">
-                                <i class="uil uil-calendar-alt">
-                                    2019 - 2021
-                                </i>
-                            </div>
-                        </div>
-                        <div>
-                            <span class="education_rounder"></span>
-                            <span class="education_line"></span>
-                        </div>
-                    </div>
-                    <div class="education_data">
-                        <div>
-                            <h3 class="education_title">Computer Engineering</h3>
-                            <span class="education_subtitle">Marmara University</span>
-                            <div class="education_calendar">
-                                <i class="uil uil-calendar-alt">
-                                    2021 - Present
-                                </i>
-                            </div>
-                        </div>
-                        <div>
-                            <span class="education_rounder"></span>
-                            <span class="education_line"></span>
-                        </div>
-                    </div>
-                    </div>                
-                </div>
-            </section>
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>English – ★★★★★</li>
+            <li>Turkish – ★★★★★</li>
+        </ul>
+    </section>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+    <section id="interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Journaling</li>
+            <li>Gaming</li>
+        </ul>
+    </section>
+</main>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">SQL</span>
-                            </div>
-                            <div class="skills__bar skills__sql">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">Python</span>
-                            </div>
-                            <div class="skills__bar skills__python">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">Java</span>
-                            </div>
-                            <div class="skills__bar skills__java">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">C++, C#</span>
-                            </div>
-                            <div class="skills__bar skills__c">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">Spring Boot</span>
-                            </div>
-                            <div class="skills__bar skills__spring">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">Docker</span>
-                            </div>
-                            <div class="skills__bar skills__docker">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <script src="js/script.js"></script>
-    </body>
+<footer>
+    <p>© 2024 Habibe Berna Barış</p>
+</footer>
+</body>
 </html>
